@@ -34,4 +34,5 @@ public class Controller {
     public String divide(@RequestParam("a")int a, @RequestParam("b")int b) throws Exception {
         return "" + calculatorService.divide(a, b);
     }
+
 }
