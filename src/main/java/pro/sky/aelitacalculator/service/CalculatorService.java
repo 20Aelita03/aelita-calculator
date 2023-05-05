@@ -6,4 +6,5 @@ public interface CalculatorService {
     int minus(int a, int b);
     int multiply(int a, int b);
     double divide(int a, int b) throws Exception;
+
 }
